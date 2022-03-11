@@ -1,6 +1,6 @@
 import sys
 import pygame
-from firstpacman.game import Game
+from Pacman.game import Game
 import pathfinding
 
 

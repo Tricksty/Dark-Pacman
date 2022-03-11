@@ -1,7 +1,7 @@
 from pygame import Vector2
 import pygame
-from firstpacman.constants import *
-import firstpacman.debuger as debuger
+from Pacman.constants import *
+import Pacman.debuger as debuger
 
 class movingObject():
 

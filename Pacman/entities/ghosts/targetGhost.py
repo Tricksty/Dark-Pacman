@@ -2,10 +2,10 @@ import pygame
 from pygame import Vector2, Rect
 from random import random, randint
 
-from firstpacman.entities.ghosts.ghostBase import GhostBase
+from Pacman.entities.ghosts.ghostBase import GhostBase
 
-from firstpacman.constants import *
-import firstpacman.debuger as global_vars
+from Pacman.constants import *
+import Pacman.debuger as global_vars
 
 import pathfinding
 from pathfinding.core.diagonal_movement import DiagonalMovement

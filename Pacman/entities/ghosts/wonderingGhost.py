@@ -3,9 +3,9 @@ from random import random, randint
 import pygame
 from pygame import Vector2, Rect
 
-from firstpacman.entities.ghosts.ghostBase import GhostBase
-from firstpacman.constants import *
-import firstpacman.debuger as global_vars
+from Pacman.entities.ghosts.ghostBase import GhostBase
+from Pacman.constants import *
+import Pacman.debuger as global_vars
 
 class WonderingGhost(GhostBase):
     def __init__(self, texture, speed, spawn_position):

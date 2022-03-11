@@ -1,8 +1,8 @@
 import pygame
 from pygame import Vector2
 
-from firstpacman.entities.movingObject import movingObject
-from firstpacman.constants import *
+from Pacman.entities.movingObject import movingObject
+from Pacman.constants import *
 
 class Pacman(movingObject):
     def __init__(self, speed, position, ghosts):

@@ -1,5 +1,5 @@
 import pygame
-from firstpacman.constants import *
+from Pacman.constants import *
 
 
 class Button:

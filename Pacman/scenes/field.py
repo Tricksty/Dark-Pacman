@@ -1,7 +1,7 @@
 import random, pygame, pygame.locals
-from firstpacman.scenes.walls import *
-from firstpacman.constants import *
-import firstpacman.debuger as global_vars
+from Pacman.scenes.walls import *
+from Pacman.constants import *
+import Pacman.debuger as global_vars
 from pygame import Rect, Vector2
 
 class Field:

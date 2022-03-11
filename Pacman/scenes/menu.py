@@ -1,26 +1,26 @@
 # Основы
 import pygame
 from pygame import Vector2
-from firstpacman.constants import *
-import firstpacman.debuger as debuger
-from firstpacman.third_party.player.player import Player
+from Pacman.constants import *
+import Pacman.debuger as debuger
+from Pacman.third_party.player.player import Player
 
 # Меню
-from firstpacman.third_party.button.button import Button
-from firstpacman.scenes.activity import Activity
+from Pacman.third_party.button.button import Button
+from Pacman.scenes.activity import Activity
 
 # Поле
-from firstpacman.scenes.field import Field
+from Pacman.scenes.field import Field
 
 # Семена
-from firstpacman.scenes.seeds.objects.seed import *
-from firstpacman.scenes.seeds.objects.bigSeed import *
-from firstpacman.scenes.seeds.objects.fruit import *
+from Pacman.scenes.seeds.objects.seed import *
+from Pacman.scenes.seeds.objects.bigSeed import *
+from Pacman.scenes.seeds.objects.fruit import *
 
 # Энтити
-from firstpacman.entities.pacman import Pacman
-from firstpacman.entities.ghosts.targetGhost import TargetGhost
-from firstpacman.entities.ghosts.wonderingGhost import WonderingGhost
+from Pacman.entities.pacman import Pacman
+from Pacman.entities.ghosts.targetGhost import TargetGhost
+from Pacman.entities.ghosts.wonderingGhost import WonderingGhost
 
 class Menu(Activity):
     def __init__(self, game):
