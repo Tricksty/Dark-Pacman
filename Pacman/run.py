@@ -2,6 +2,7 @@ import sys
 import pygame
 from Pacman.game import Game
 
+
 def main():
     pygame.init()
     pygame.font.init()
