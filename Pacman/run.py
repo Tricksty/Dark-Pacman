@@ -1,8 +1,6 @@
 import sys
 import pygame
 from Pacman.game import Game
-import pathfinding
-
 
 def main():
     pygame.init()
